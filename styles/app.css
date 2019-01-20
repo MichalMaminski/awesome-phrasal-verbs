@@ -80,3 +80,7 @@
     content: "";
     vertical-align: top;
 }
+
+.row:hover div.hover {
+    background-color: rgba(0,0,0,.075);
+}
