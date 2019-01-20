@@ -47,7 +47,7 @@ class App extends React.Component {
         return (
             <React.Fragment>
                 <div className="row justify-content-center">
-                    <h2 className="text-center">The following table contains my learned phrasal verbs</h2>
+                    <h4 className="display-4 text-center">The following table contains my learned phrasal verbs</h4>
                 </div>
                 <TableHeader headerContext={this.state.headerContext} changeAllSelected={(element, lang) => this.changeAllSelected(element, lang)}/>
                 {cellsWithVerbs}
