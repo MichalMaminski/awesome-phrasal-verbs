@@ -5,7 +5,7 @@ class TableHeader extends React.Component {
     render() {
         return (
             <div className="row justify-content-center">
-                <div className="col-sm-5 col-4 pl-4 py-4 shadow-none bg-warning rounded-left border">
+                <div className="col col-md-4 pl-md-4 py-4 shadow-none bg-warning rounded-left border">
                     <div className="custom-control custom-checkbox">
                         <input type="checkbox"
                             className="custom-control-input"
@@ -16,7 +16,7 @@ class TableHeader extends React.Component {
                     </div>
                 </div>
 
-                <div className="col-sm-5 col-4 pr-4 py-4 shadow-none bg-warning rounded-right border">
+                <div className="col col-md-4 pr-md-4 py-4 shadow-none bg-warning rounded-right border">
                     <div className="custom-control-right custom-checkbox text-right">
                         <input type="checkbox"
                             className="custom-control-input"

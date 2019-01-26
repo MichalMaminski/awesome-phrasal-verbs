@@ -7,7 +7,7 @@ class TabelCell extends React.Component {
         return (
             <React.Fragment>
                 <div className="row justify-content-center">
-                    <div className="col-sm-5 col-4 pl-3 py-2 rounded-left border-left border-bottom border-right hover">
+                    <div className="col col-md-4 pl-md-3 py-2 rounded-left border-left border-bottom border-right hover">
                         <div className="custom-control custom-checkbox">
                             <input type="checkbox"
                                 className="custom-control-input"
@@ -21,7 +21,7 @@ class TabelCell extends React.Component {
                                 value={this.props.verb.en.value} />
                         </div>
                     </div>
-                    <div className="col-sm-5 col-4 pr-3 py-2 rounded-right border-right border-bottom border-right hover">
+                    <div className="col col-md-4 pr-md-3 py-2 rounded-right border-right border-bottom border-right hover">
                         <div className="custom-control-right custom-checkbox text-right">
                             <input className="custom-control-input"
                                 type="checkbox"
