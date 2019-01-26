@@ -9,5 +9,4 @@ export default [
     { "en": "Turn back", "pl": "Zawracać" },
     { "en": "Turn to sb", "pl": "Zwracać się do" },
     { "en": "Turn into sth", "pl": "Przerobić, przerodzić się, przemieniać się" },
-    { "en": "Test", "pl": "Test" },
 ]
