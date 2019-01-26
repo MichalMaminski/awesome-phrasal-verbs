@@ -47,7 +47,7 @@ class App extends React.Component {
         })
         return (
             <React.Fragment>
-                <div className="jumbotron bg-white px-5 p-4 mb-0">
+                <div className="jumbotron bg-light px-5 p-4 mb-2 shadow-sm">
                     <h1 className="display-5">Awesome phrasal verbs</h1>
                     <p className="lead text-black-50">Learn with pleasure</p>
                 </div>

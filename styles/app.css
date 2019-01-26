@@ -23,8 +23,13 @@ body {
 
   .custom-control-label {
     cursor: pointer;
-    margin-bottom: 0;
   }
+
+.custom-control-label::after,
+.custom-control-label::before {
+    top: 0.35rem;
+}
+
   .custom-control-label.small {
     vertical-align: middle;
   }
@@ -63,7 +68,7 @@ body {
 .custom-control-label.small::after,
 .custom-control-label.small::before,
 .custom-control-label-reverted.small::after {
-    top: 0;
+    top: 0.25rem;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label-reverted::after {
