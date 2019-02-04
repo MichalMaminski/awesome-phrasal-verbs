@@ -1,18 +1,12 @@
-const fs = require('fs');
-var screenshot = require('electron-screenshot-service');
- 
-screenshot({
-  url : 'https://michalmaminski.github.io/awesome-phrasal-verbs',
-  width : 1024,
-  height : 768,
-  page: true,
-  delay: 100
-})
-.then(function(img){
-  fs.writeFile('./tools/output/site-view.png', img.data, function(err) {
-      if (err) {
-          throw err;
-      }
-    screenshot.close();
-  });
+const capture = require('capture-chrome')
+const fs = require('fs')
+
+capture({
+    url: 'https://michalmaminski.github.io/awesome-phrasal-verbs'
+}).then(screenshot => {
+    fs.writeFileSync(`${__dirname}/output/site-screenshot.png`, screenshot);
+    console.log('Screenshot from site generated with success.');
+}).catch((err) => {
+    console.log(err);
+    process.exit(-1);
 });
