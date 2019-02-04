@@ -4,7 +4,7 @@ const fs = require('fs')
 capture({
     url: 'https://michalmaminski.github.io/awesome-phrasal-verbs'
 }).then(screenshot => {
-    fs.writeFileSync(`${__dirname}/output/site-screenshot.png`, screenshot);
+    fs.writeFileSync(`${__dirname}/output/site-screenshot.png`, screenshot, { mode: 7, flag: "w+"});
     console.log('Screenshot from site generated with success.');
 }).catch((err) => {
     console.log(err);
