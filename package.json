@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "run": "parcel index.html",
-    "build": "parcel build index.html --public-url '.'"
+    "build": "parcel build index.html --public-url '.'",
+    "site-image": "node tools/make-site-view.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,8 @@
   },
   "dependencies": {
     "bootstrap": "4.2.1",
+    "electron-screenshot-service": "^4.0.3",
+    "fs": "0.0.1-security",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   }
