@@ -4,7 +4,11 @@
 
 [![Build Status](https://travis-ci.org/MichalMaminski/awesome-phrasal-verbs.svg?branch=master)](https://travis-ci.org/MichalMaminski/awesome-phrasal-verbs):heart:
 
-:computer: My space to add and learn phrasal verbs.
+---
+
+## Getting Started
+
+This repository contains react based app that allows me add learned words and helps me memories them. :computer:
 
 :page_facing_up: Live app is available here:
 
