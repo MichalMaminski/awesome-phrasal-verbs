@@ -30,6 +30,7 @@
     "parcel-bundler": "^1.11.0"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "4.2.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
