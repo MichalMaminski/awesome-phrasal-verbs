@@ -25,13 +25,13 @@
   },
   "homepage": "https://github.com/Michnet/awesome-phrasal-verbs#readme",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-react": "^7.0.0",
-    "parcel-bundler": "^1.11.0"
+    "@babel/core": "^7.7.5",
+    "@babel/preset-react": "^7.7.4",
+    "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "bootstrap": "4.2.1",
+    "axios": "^0.18.1",
+    "bootstrap": "^4.4.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   }
